@@ -9,7 +9,7 @@ function checkIfFire() {
                     var audio = new Audio(chrome.runtime.getURL("gunshot.mp3"));
                     audio.volume = 0.5;
                     audio.play();
-                }, 300);
+                }, 100);
             }
             if (playbackTime.startsWith("1:52")) {
                 var audio = new Audio(chrome.runtime.getURL("gunshot2.mp3"));
